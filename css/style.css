@@ -163,11 +163,11 @@ font-weight: 500;
 
 
 }
-/* .foot-icon{
-width: 40px;
-height: 40px;
 
-} */
+.footer-2stp a i {
+
+
+}
 .footer-4stp{
 
     padding-top: 2rem;
@@ -176,3 +176,5 @@ text-align: center;
 font-size: 1rem;
 font-weight: 500;
 }
+
+/* footer styles end */
