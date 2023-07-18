@@ -2,7 +2,7 @@
 
 /* shared styles start */
 
-*{
+* {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -12,30 +12,74 @@
 
 /* nav styles start */
 
-.nav{
+.nav {
     display: flex;
-    text-align: center;
-    border: 1px solid tomato;
-    margin-top: 1rem;
+    /* border: 1px solid tomato; */
+    margin-top: .2rem;
     padding: 1rem;
     justify-content: center;
     padding-right: 220px;
     padding-left: 220px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    align-items: center;
 }
-.nav-logo{
+
+.nav-logo {
     display: flex;
     width: 50%;
+    align-items: center;
+    padding-right: 10px;
     text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+
 }
-.nav-text{
+
+.nav-logo-name {
+    text-align: center;
+    padding-left: .8rem;
+}
+
+.nav-logo-name span {
+    color: #FF42A5;
+}
+
+.nav-text {
     display: flex;
     width: 50%;
     justify-content: space-around;
-    text-align: center;
+    align-items: center;
 
 }
 
+.nav-text h4 a {
+    text-decoration: none;
+    color: #3C354F;
+
+
+    font-size: 1.1rem;
+
+    font-weight: 500;
+
+}
+
+.nav-follow {
+
+    width: 40%;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+
+}
+
+.fa-youtube {
+    color: #F61C0D;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
 
 /* nav styles end */
