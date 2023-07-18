@@ -1,7 +1,7 @@
 /* mobile devices screen */
 
 @media screen and (max-width:576px) {
-
+/* nav styles start */
     .nav,
     .nav-text {
         flex-direction: column;
@@ -25,13 +25,13 @@
     .nav-text-a {
         padding-bottom: 2rem;
     }
-
+/* nav styles end */
 }
 
 /* tablet devices screen */
 
 @media screen and (min-width:577px) and (max-width:992px) {
-
+/* nav styles start */
     .nav,
     .nav-text {
         flex-direction: column;
@@ -55,5 +55,5 @@
     .nav-text-a {
         padding-bottom: 2rem;
     }
-
+/* nav styles end */
 }
