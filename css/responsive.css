@@ -108,6 +108,75 @@ text-align: center;
 
 /* <!--  gamer section end --> */
 
+/* <!--  instantly section start --> */
+
+.instantly {
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+   
+}
+
+.instantly-img {
+    
+    width: 100%;
+    
+}
+
+.instantly-text {
+    justify-content: center;
+    width: 90%;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    text-align: center;
+    align-items: center;
+
+}
+
+.instantly-text1 {
+    text-align: center;
+    
+
+}
+
+.instantly-text2 {
+    color: #534C64;
+text-align: center;
+align-items: center;
+margin-bottom: 2rem;
+
+}
+
+.instantly-img1{
+
+    position: relative;
+    width: 20rem;
+    height: 22rem;
+    border-radius: .5rem;
+    border: 0.5rem solid #FFF;
+    margin-bottom: 3rem;
+       
+    
+    }
+
+    .instantly-img2 {
+
+        position: absolute;
+        width: 7rem;
+        height: 9rem;
+        
+        margin-right: 17rem;
+        
+        }
+
+
+
+
+
+
+
+/* <!--  instantly section end --> */
+
 /* footer styles start */
 
 .footer{
@@ -126,6 +195,13 @@ text-align: center;
 
 
 }
+
+
+
+
+
+
+
 
 
 /* tablet devices screen */
@@ -239,6 +315,78 @@ text-align: center;
 }
 
 /* <!--  gamer section end --> */
+
+/* <!--  instantly section start --> */
+
+.instantly {
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+   
+}
+
+.instantly-img {
+    
+    width: 100%;
+    
+}
+
+.instantly-text {
+    justify-content: center;
+    width: 90%;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    text-align: center;
+    align-items: center;
+
+}
+
+.instantly-text1 {
+    text-align: center;
+    
+
+}
+
+.instantly-text2 {
+    color: #534C64;
+text-align: center;
+align-items: center;
+margin-bottom: 2rem;
+
+}
+
+.instantly-img1{
+
+    position: relative;
+    width: 20rem;
+    height: 22rem;
+    border-radius: .5rem;
+    border: 0.5rem solid #FFF;
+    margin-bottom: 3rem;
+    margin-right: 7rem;
+       
+    
+    }
+
+    .instantly-img2 {
+
+        position: absolute;
+        width: 7rem;
+        height: 9rem;
+        
+        margin-right: 24rem;
+        
+        }
+
+
+
+
+
+
+
+/* <!--  instantly section end --> */
+
+
 
 .footer{
     padding-right: 20px;
