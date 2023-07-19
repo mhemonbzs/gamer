@@ -170,12 +170,30 @@ margin-bottom: 2rem;
         }
 
 
-
-
-
-
-
 /* <!--  instantly section end --> */
+
+
+
+/* <!--  games section start --> */
+
+.games {
+    
+
+    margin: .2rem auto;
+    padding: .2rem;
+    background-color: rgb(245, 239, 232);
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+    }
+    
+   
+    
+    
+    /* <!--  games section end --> */
+
+
 
 /* footer styles start */
 
@@ -385,6 +403,39 @@ margin-bottom: 2rem;
 
 
 /* <!--  instantly section end --> */
+
+/* <!--  games section start --> */
+
+.games {
+    
+
+    margin: .2rem auto;
+    padding: .2rem;
+    background-color: rgb(245, 239, 232);
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+    }
+
+    .games-game {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 13rem;
+        height: 4rem;
+        border-radius: 3rem;
+        background: #FFF;
+        padding: .2rem;
+        margin: .5rem;
+        
+        }
+    
+   
+    
+    
+    /* <!--  games section end --> */
 
 
 
