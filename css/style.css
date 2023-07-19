@@ -678,4 +678,45 @@ opacity: 45%;
 
 
 
+ .bonus-img0 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .bonus-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity as desired */
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  
+  .bonus-img0:hover .bonus-img-overlay {
+    opacity: 1;
+  }
+  
+  .bonus-img-overlay img {
+    width: 3rem; /* Adjust the play button size as desired */
+  }
+  
+  .bonus-img-overlay p {
+    color: #fff;
+    margin-top: 10px;
+        font-size: .9rem; /* Adjust the font size as desired */
+  }
+  
+  /* Additional styles for the image and overlay as desired */
+  .bonus-img1 {
+    width: 100%;
+  }
+  
+
 /* bonus section start */
