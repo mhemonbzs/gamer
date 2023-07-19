@@ -303,7 +303,7 @@ font-weight: 700;
 
 .instantly {
     display: flex;
-    border: 1px solid tomato;
+    
     margin-top: .2rem;
     padding: 1rem;
     justify-content: center;
@@ -319,7 +319,35 @@ font-weight: 700;
     text-align: right;
     width: 50%;
     align-items: flex-end;
+    display: flex;
+    flex-direction: row-reverse;
+
+    
 }
+
+
+.instantly-img1{
+
+position: relative;
+width: 26rem;
+height: 28rem;
+border-radius: .5rem;
+border: 0.5rem solid #FFF;
+margin-bottom: 3rem;
+   
+
+}
+
+.instantly-img2 {
+
+position: absolute;
+width: 8rem;
+height: 10rem;
+
+margin-right: 22rem;
+
+}
+
 
 
 .instantly-text {
