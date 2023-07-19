@@ -125,7 +125,7 @@
 
 .banner-text2 {
     text-align: center;
-    
+
     font-size: 5rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -225,7 +225,7 @@
     width: 50%;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .gamer-img img {
@@ -248,38 +248,38 @@
 .gamer-text1 {
     text-align: right;
 
-font-size: 2.5rem;
+    font-size: 2.5rem;
 
-font-weight: 700;
+    font-weight: 700;
 
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
 .gamer-text2 {
     color: #534C64;
-text-align: right;
+    text-align: right;
 
-font-size: .8rem;
+    font-size: .8rem;
 
-font-weight: 400;
-padding-top: .8rem;
-padding-bottom: .8rem;
+    font-weight: 400;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
 
 }
 
 
 .gamer-text3 {
     color: #534C64;
-text-align: right;
+    text-align: right;
 
-font-size: 1rem;
+    font-size: 1rem;
 
-font-weight: 500;
-padding-top: .5rem;
+    font-weight: 500;
+    padding-top: .5rem;
 
 }
 
@@ -287,9 +287,9 @@ padding-top: .5rem;
 .gamer-text4 {
     color: #534C64;
 
-font-size: 1.5rem;
+    font-size: 1.5rem;
 
-font-weight: 700;
+    font-weight: 700;
 
 }
 
@@ -303,14 +303,14 @@ font-weight: 700;
 
 .instantly {
     display: flex;
-    
+
     margin-top: .2rem;
     padding: 1rem;
     justify-content: center;
     padding-right: 220px;
     padding-left: 200px;
     background: #FFF;
-       align-items: center;
+    align-items: center;
 }
 
 
@@ -322,36 +322,36 @@ font-weight: 700;
     display: flex;
     flex-direction: row-reverse;
 
-    
+
 }
 
 
-.instantly-img1{
+.instantly-img1 {
 
-position: relative;
-width: 26rem;
-height: 28rem;
-border-radius: .5rem;
-border: 0.5rem solid #FFF;
-margin-bottom: 3rem;
-   
+    position: relative;
+    width: 26rem;
+    height: 28rem;
+    border-radius: .5rem;
+    border: 0.5rem solid #FFF;
+    margin-bottom: 3rem;
+
 
 }
 
 .instantly-img2 {
 
-position: absolute;
-width: 8rem;
-height: 10rem;
+    position: absolute;
+    width: 8rem;
+    height: 10rem;
 
-margin-right: 22rem;
+    margin-right: 22rem;
 
 }
 
 
 
 .instantly-text {
-    
+
     width: 50%;
     padding-right: 5rem;
     margin-right: 2rem;
@@ -360,7 +360,7 @@ margin-right: 22rem;
 
 .instantly-text1 {
     text-align: right;
-    
+
 
 }
 
@@ -370,35 +370,35 @@ margin-right: 22rem;
 .instantly-text01 {
     text-align: right;
 
-font-size: 2.5rem;
+    font-size: 2.5rem;
 
-font-weight: 700;
+    font-weight: 700;
 
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .instantly-text02 {
     text-align: right;
 
-font-size: 2.5rem;
+    font-size: 2.5rem;
 
-font-weight: 700;
+    font-weight: 700;
 
-color: #0B0223;
+    color: #0B0223;
 }
 
 
 .instantly-text2 {
     color: #534C64;
-text-align: right;
-align-items: right;
-margin-top: 1rem;
-font-size: 1rem;
+    text-align: right;
+    align-items: right;
+    margin-top: 1rem;
+    font-size: 1rem;
 
-font-weight: 400;
+    font-weight: 400;
 
 }
 
@@ -407,42 +407,54 @@ font-weight: 400;
 /* <!--  games section start --> */
 
 .games {
-    
 
-margin: 2rem auto;
-padding: 2rem;
-background-color: rgb(245, 239, 232);
-/* display: grid;
+
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgb(245, 239, 232);
+    /* display: grid;
 grid-template-columns: repeat(5, 1fr); */
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
 
 }
 
 
 .games-game {
-display: flex;
-justify-content: center;
-text-align: center;
-align-items: center;
-width: 13rem;
-height: 4rem;
-border-radius: 3rem;
-background: #FFF;
-padding: .5rem;
-margin: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 13rem;
+    height: 4rem;
+    border-radius: 3rem;
+    background: #FFF;
+    padding: .5rem;
+    margin: 1rem;
 
 }
 
 
 .games-game-text {
     color: #0B0223;
-font-size: 1rem;
-font-weight: 600;
-padding-left: .25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: .25rem;
 
+}
+
+.games-game:hover {
+    border: .15rem solid #FF42A5;
+    color: #FF42A5;
+
+}
+
+.games-game-text:hover {
+
+    color: #FF42A5;
 }
 
 
