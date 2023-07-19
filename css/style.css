@@ -411,7 +411,7 @@
 
     margin: 2rem auto;
     padding: 2rem;
-    background-color: rgb(245, 239, 232);
+    background-color: rgb(250, 246, 244);
     /* display: grid;
 grid-template-columns: repeat(5, 1fr); */
     display: flex;
@@ -555,3 +555,127 @@ grid-template-columns: repeat(5, 1fr); */
 }
 
 /* footer styles end */
+
+
+
+/* bonus section start */
+
+.bonus-text {
+
+    width: 90%;
+    padding-right: 5rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+
+}
+
+.bonus-text1 {
+    text-align: center;
+
+
+}
+
+
+
+
+.bonus-text01 {
+    text-align: center;
+
+    font-size: 2.5rem;
+
+    font-weight: 700;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bonus-text02 {
+    text-align: center;
+
+    font-size: 2.5rem;
+
+    font-weight: 700;
+
+    color: #0B0223;
+}
+
+
+.bonus-text2 {
+    color: #534C64;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+
+    font-weight: 400;
+
+}
+
+.bonus-img {
+    display: grid;
+    grid-template-columns: repeat(4, .5fr);
+    padding: 1rem 2rem;
+    justify-content: center;
+    width: 90%;
+    margin-top: 2rem;
+    
+}
+
+
+.bonus-img1 {
+width: 14rem;
+height: 17rem;
+margin-bottom: 1rem;
+
+position: relative;
+
+}
+
+
+.bonus-img-overlay {
+    position: absolute;
+    background-color: #604c96;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: -18.5rem;
+    padding: 0;
+    width: 14rem;
+height: 17rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+border-radius: 1rem;
+opacity: 45%;
+
+
+}
+
+.bonus-img1:hover .bonus-img01{
+    opacity: 45%;
+    visibility: visible;
+
+}
+
+
+.bonus-img01 {
+    width: 14rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .bonus-img0 {
+        margin: 0 auto;
+    padding: 1rem;
+ }
+
+
+
+/* bonus section start */

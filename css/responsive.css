@@ -215,6 +215,24 @@
         /* footer styles end */
     }
 
+    .bonus-img {
+   
+        grid-template-columns: repeat(1, 1fr);
+        
+        width: 80%;
+        
+        
+    }
+
+    .bonus-text {
+
+        width: 80%;
+        padding-right: 2rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    
+    }
+
 
 }
 
@@ -462,4 +480,25 @@
     }
 
     /* footer styles end */
+/* bonus section  */
+
+.bonus-img {
+   
+    grid-template-columns: repeat(2, 1fr);
+    
+    width: 80%;
+    
+    
+}
+.bonus-text {
+
+    width: 80%;
+    padding-right: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+
+}
+
+
+
 }
