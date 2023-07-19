@@ -404,6 +404,50 @@ font-weight: 400;
 
 /* <!--  instantly section end --> */
 
+/* <!--  games section start --> */
+
+.games {
+    
+
+margin: 2rem auto;
+padding: 2rem;
+background-color: rgb(245, 239, 232);
+/* display: grid;
+grid-template-columns: repeat(5, 1fr); */
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+
+}
+
+
+.games-game {
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+width: 13rem;
+height: 4rem;
+border-radius: 3rem;
+background: #FFF;
+padding: .5rem;
+margin: 1rem;
+
+}
+
+
+.games-game-text {
+    color: #0B0223;
+font-size: 1rem;
+font-weight: 600;
+padding-left: .25rem;
+
+}
+
+
+/* <!--  games section end --> */
+
 
 /* footer styles start */
 
