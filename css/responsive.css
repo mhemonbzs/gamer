@@ -27,6 +27,35 @@
     }
 /* nav styles end */
 
+.banner {
+
+    flex-direction: column;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    flex-direction: column-reverse;
+    
+
+}
+
+.banner-text {
+margin-top: 1.25rem;
+    width: 90%;
+    
+}
+
+
+
+.banner-img {
+   
+    width: 90%;
+
+}
+
+
+}
+/* banner styles end */
+
+/* footer styles start */
 
 .footer{
     padding-right: 20px;
@@ -39,8 +68,6 @@
     width : 100%;
     
     
-
-}
 /* footer styles end */
 }
 
@@ -72,6 +99,34 @@
         padding-bottom: 2rem;
     }
 /* nav styles end */
+
+.banner {
+
+    flex-direction: column;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    flex-direction: column-reverse;
+    
+
+}
+
+.banner-text {
+margin-top: 1.25rem;
+    width: 90%;
+    
+}
+
+
+
+.banner-img {
+   
+    width: 90%;
+
+}
+
+
+}
+/* banner styles end */
 
 .footer{
     padding-right: 20px;
